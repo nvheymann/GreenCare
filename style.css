@@ -1,0 +1,53 @@
+.topic1{
+    animation: topic1 2s infinite ease-in-out;
+}
+
+
+@keyframes topic1 {
+    from {transform:translate(0px, 0);}
+    50% {transform:translate(-10px, 0);}
+    to {transform: translate(0px, 0);}
+}
+
+.carousel {
+    width:640px;
+    height:100%;
+  }
+
+
+.shadow1_box{
+
+    box-shadow: 2px 2px 5px black;
+}
+.shadow_text{
+
+    text-shadow: 2px 2px 5px black;
+}
+
+.start { 
+    background: url(assets/start.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.projekt { 
+    background: url(assets/projekt.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    object-fit: scale-down;
+}
+
+.mar{
+    margin-top: 900px;
+}
+
+.boarder{
+
+   border-style: solid;
+   border-color: white;
+
+}
